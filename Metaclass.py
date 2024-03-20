@@ -4,6 +4,7 @@ from datetime import datetime
 def get_instantiation_time(self):
     return self.instantiation_time
 
+
 class MyMeta(type):
     class_names = []
     def __new__(mcs, name, bases, dictionary):
